@@ -1,0 +1,15 @@
+# build
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+
+# 로컬 전용 설정
+appsettings.Local.json
+
+# 로그/잡파일
+*.log
+Thumbs.db
+.DS_Store
