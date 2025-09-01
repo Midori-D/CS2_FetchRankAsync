@@ -6,10 +6,25 @@ obj/
 .vs/
 .vscode/
 
-# 로컬 전용 설정
+# Playwright artifacts
+**/playwright-report/
+**/trace.zip
+**/traces/
+**/screenshots/
+**/videos/
+**/playwright*.zip
+
+# Debug dumps
+**/pw_*.html
+**/pw_*.png
+**/playwright_*.html
+**/playwright_*.png
+**/last_*.html
+
+# Local
 appsettings.Local.json
 
-# 로그/잡파일
+# Log
 *.log
 Thumbs.db
 .DS_Store
